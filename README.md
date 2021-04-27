@@ -20,6 +20,7 @@ Demo for the Vision API Product Search (https://cloud.google.com/vision/product-
 ## Demo - bulk import to create product catalog
 
 1. Create csv file -> how to format bulk import csv (https://cloud.google.com/vision/product-search/docs/csv-format)
+(you can use this sample one pointing to a public apparel image dataset: gs://cloud-samples-data/vision/product_search/product_catalog.csv)
 
 2. Import csv file -> import_product_sets(gcs_uri)
 
